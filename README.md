@@ -5,6 +5,4 @@
 Live Site: https://styleme-f3276.web.app/
 
 ## Built with :
-React js
-Tailwnd 
-Sass
+React js, Tailwind and Sass
