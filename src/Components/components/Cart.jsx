@@ -25,7 +25,11 @@ const Cart = ({ cartItems = [], setCartItem, setCartItems, handleCartUpdate }) =
   
 
   const handleCheckout = () => {
-    history('/checkout', { state: { cartItems } })  };
+    window.scrollTo(0, 0);
+
+    history('/checkout', { state: { cartItems } }) 
+    
+   };
 
   return (
     <div>
